@@ -1,5 +1,5 @@
 # ec2-module
-Module that create EC2 instance in AWS
+Calling module, that create EC2 instance in AWS
 
 ### Prerequisites
 - Terraform should be installed
