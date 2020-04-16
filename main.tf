@@ -2,7 +2,7 @@
 module "ec2-east" {
   source = "./ec2-east"
 
-  ami = var.ami_east
+  ami = "${var.ami_east}"
 }
   
 resource "null_resource" "test01" {
